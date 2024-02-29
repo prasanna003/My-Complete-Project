@@ -23,10 +23,9 @@ app.listen(PORT, () => {
 mongoose
   .connect("mongodb://127.0.0.1:27017/MyCompleteProject")
   .then((connected) => {
-    console.log("Mongodb Connected Successfully");
+    console.log("Mongodb Connected Successfully...");
   })
   .catch((err) => {
     console.log("Mongodb Connection Error:", err);
   });
 
-  
